@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COLOR_SETTING='echo -e "\e[47m\e[30m"'
+COLOR_SETTING='echo -e "\e[97m"'
 
 if grep -Fxq "$COLOR_SETTING" ~/.bashrc; then
 	echo "White font already set..."
